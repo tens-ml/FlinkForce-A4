@@ -1,1 +1,5 @@
 flink-1.17.1/
+*.raw.ta
+*.con.ta
+*.contain
+*.ls.ta

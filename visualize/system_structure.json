@@ -8,75 +8,75 @@
             "children": [
                 {
                     "name": "JobManager.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/jobmanager/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/jobmanager/"
                 },
                 {
                     "name": "JobMaster.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/jobmaster/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/jobmaster/"
                 },
                 {
                     "name": "ResourceManager.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/resourcemanager/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/resourcemanager/"
                 },
                 {
                     "name": "Dispatcher.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/dispatcher/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/dispatcher/"
                 },
                 {
                     "name": "TaskManager.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/taskmanager/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/taskmanager/"
                 },
                 {
                     "name": "TaskExecutor.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/taskexecutor/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/taskexecutor/"
                 },
                 {
                     "name": "State.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/state/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/state/"
                 },
                 {
                     "name": "Checkpoint.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/checkpoint/",
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/",
                     "children": [
                         {
                             "name": "CheckpointCoordinator.ss",
-                            "pattern": "flink-runtime/src/main/java/org/apache/runtime/checkpoint/CheckpointCoordinator"
+                            "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator"
                         },
                         {
                             "name": "Channel.ss",
-                            "pattern": "flink-runtime/src/main/java/org/apache/runtime/checkpoint/channel/"
+                            "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/channel/"
                         },
                         {
                             "name": "Hooks.ss",
-                            "pattern": "flink-runtime/src/main/java/org/apache/runtime/checkpoint/hooks/"
+                            "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/hooks/"
                         },
                         {
                             "name": "Metadata.ss",
-                            "pattern": "flink-runtime/src/main/java/org/apache/runtime/checkpoint/metadata/"
+                            "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/metadata/"
                         }
                     ]
                 },
                 {
                     "name": "ExecutionGraph.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/executiongraph/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/executiongraph/"
                 },
                 {
                     "name": "JobGraph.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/jobgraph/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/jobgraph/"
                 },
                 {
                     "name": "Entrypoint.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/entrypoint/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/entrypoint/"
                 },
                 {
                     "name": "Security.ss",
-                    "pattern": "flink-runtime/src/main/java/org/apache/runtime/security/"
+                    "pattern": "flink-runtime/src/main/java/org/apache/flink/runtime/security/"
                 }
             ]
         },
         {
                 "name": "FlinkClients.ss",
-                "pattern": "flink-clients/src/main/java/org/apache/client/"
+                "pattern": "flink-clients/src/main/java/org/apache/flink/client/"
         },
         {
             "name": "FlinkConnectors.ss",
